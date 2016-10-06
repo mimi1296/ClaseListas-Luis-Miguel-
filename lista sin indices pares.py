@@ -12,8 +12,8 @@ def lista(n):
 def listaSinIndPar(lista):
     i= 0
     while (i < len(lista)):
-        del lista[i]
         print("Eliminado el elemento ", lista[i], ", con indice ", i)
+        del lista[i]
         i += 1
     return lista
 

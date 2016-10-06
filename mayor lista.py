@@ -9,10 +9,9 @@ def Mayor(rango):
         num = eval(input("Numero {} ".format(c+1)))
         Lista.insert(c,num)
         c = c+1
-    mayor = max(Lista)
-    return mayor
+    print("El número mayor de la lista es:", max(Lista))
 
 rango = int(input("Ingrese el rango de la lista, por favor: "))
 mayor = Mayor(rango)
-print("El número mayor es:", mayor)
+
     
